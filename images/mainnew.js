@@ -1,0 +1,11 @@
+bg = new Array(8); 
+bg[0] = 'https://code.aliyun.com/free163/publiclib/raw/08265923287e8067a337694679fca2c0344126f2/photopig/001.jpg' 
+bg[1] = 'https://code.aliyun.com/free163/publiclib/raw/08265923287e8067a337694679fca2c0344126f2/photopig/002.jpg' 
+bg[2] = 'https://code.aliyun.com/free163/publiclib/raw/08265923287e8067a337694679fca2c0344126f2/photopig/003.jpg' 
+bg[3] = 'https://code.aliyun.com/free163/publiclib/raw/08265923287e8067a337694679fca2c0344126f2/photopig/004.jpg' 
+bg[4] = 'https://code.aliyun.com/free163/publiclib/raw/08265923287e8067a337694679fca2c0344126f2/photopig/005.jpg' 
+bg[5] = 'https://code.aliyun.com/free163/publiclib/raw/08265923287e8067a337694679fca2c0344126f2/photopig/006.jpg' 
+bg[6] = 'https://code.aliyun.com/free163/publiclib/raw/08265923287e8067a337694679fca2c0344126f2/photopig/007.jpg' 
+bg[7] = 'https://code.aliyun.com/free163/publiclib/raw/08265923287e8067a337694679fca2c0344126f2/photopig/008.jpg' 
+index = Math.floor(Math.random() * bg.length);
+document.write("<img src="+bg[index]+">");
